@@ -333,7 +333,7 @@ mfxStatus MFXLibraryIterator::Init(eMfxImplType implType, mfxIMPL impl, const mf
     m_implType = implType;
 
     snprintf(m_path, sizeof(m_path)/sizeof(m_path[0]),
-             "%s/%s/%04x/%04x", mfx_storage_opt, mfx_folder, m_vendorID, m_deviceID);
+             "%s/%s", mfx_storage_opt, mfx_folder);
 
     m_libs_num = mfx_list_libraries(m_path, (MFX_LIB_HARDWARE == implType), &m_libs);
 
