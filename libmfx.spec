@@ -19,7 +19,7 @@ BuildRequires:  autoconf
 #---------------------------------------------------------------------
 
 %description
-mfx_dispatch is a free library for using the Intel Media SDK library.
+libmfx is a free library for using the Intel Media SDK library.
 
 %description devel
 libmfx is a free library for using the Intel Media SDK library.
